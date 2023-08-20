@@ -2,7 +2,7 @@ const messageBox = document.getElementById("message-box");
 const inputMessage = document.getElementById("input-message");
 const sendButton = document.getElementById("send-button");
 
-const socket = new WebSocket("wss://your-github-repo-name.herokuapp.com");
+const socket = new WebSocket("wss://Hmmm.herokuapp.com");
 
 socket.addEventListener("open", () => {
     console.log("Connected to server");
